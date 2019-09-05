@@ -6,6 +6,7 @@ let checkFlag = false;
 const showInput = elm => {
   if (checkFlag) {
     clearInput();
+    checkFlag = false;
   }
   result.value += elm.value;
 };
