@@ -1,0 +1,17 @@
+@charset 'utf-8';
+#container {
+  width: 200px;
+  margin: 0 auto;
+}
+input {
+  font-size: 32px;
+  width: 190px;
+}
+button {
+  width: 45px;
+  font-size: 32px;
+}
+
+button:hover {
+  cursor: pointer;
+}
